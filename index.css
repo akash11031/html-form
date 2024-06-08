@@ -8,11 +8,11 @@ body{
 
 header{
     width: 100%;
-    padding: 10px;
+    padding: 5px;
 }
 
-.contenar{
-    width: 80%;
+.conteiner{
+    width: 1140px;
     margin: 0% auto;
     
     
@@ -21,23 +21,29 @@ header{
 .menu{
  display: flex;
  align-items: center;
- background-color: bisque;
+ 
  
 }
 
-.logo, .btns{
+.logo {
     flex-basis: 20%;
 }
 
 .nav{
     flex-basis: 60%;
     justify-content: space-between;
-    
+    align-items: center;
 }
+.btns{flex-basis: 20%;
 
-.logo a img{
-    width: 100px;
 }
+.logo a img{
+    
+        width: 175px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
 
 .nav ul{
     margin: 0%;
@@ -47,18 +53,17 @@ header{
 .nav ul li{
     list-style: none;
     display: inline-block;
-    margin-right: 50px;
+    margin-right: 10px;
     font-size: 20px;
+    color: #0e72cc ;
 }
 
 .btns button{
     
-        background-color: rgba(6, 35, 54, 0.249);
-        padding: 10px 20px;
-        border: 1px solid rgba(6, 35, 54, 0.249);
-        font-size: 15px;
+        background-color: #0e72cc;
+        border: 1px solid #0e72cc;
+        font-size: 16px;
+        padding: 10px 22px;
+        color: aliceblue;
     }
 
-button:hover{
-    background-color: rgb(93, 193, 31);
-}
